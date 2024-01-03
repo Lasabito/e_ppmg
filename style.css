@@ -257,6 +257,28 @@ html {
     border: 5px solid black;
 }
 
+.front-page .right .download{
+    position: fixed;
+    top: 15px;
+    right: 25px;
+    display: flex;
+    gap: 3px;
+    text-decoration: none;
+    background: black;
+    font-weight: bold;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 10px;
+    font-size: 1.05rem;
+    border: 3px solid black;
+    transition: .4s;
+}
+
+.front-page .right .download:hover{
+    color: black;
+    background: white;
+}
+
 .front-page .left {
     background: white;
 }
@@ -392,7 +414,7 @@ html {
 
 .third-page .left .article .first-half .text {
     flex: 3;
-    font-size: 1.13vw;
+    font-size: 1.12vw;
 }
 
 .third-page .left .article .second-half {
